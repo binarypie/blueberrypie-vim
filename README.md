@@ -1,4 +1,4 @@
-# Blueberry Pie Color Scheme for Vim
+# BlueberryPie Color Scheme for Vim
 
 Blueberry Pie is an adaptation from the monokai theme for vim.
 
