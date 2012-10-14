@@ -196,4 +196,8 @@ if &t_Co > 255
    hi LineNr          ctermfg=250 ctermbg=234
    hi NonText         ctermfg=59
    hi SpecialKey      ctermfg=59
+
+   hi TabLineFill     ctermfg=234 ctermbg=81
+   hi TabLine         ctermfg=59 ctermbg=234
+   hi TabLineSel      ctermfg=81 ctermbg=0
 end
