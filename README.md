@@ -1,16 +1,6 @@
-# BlueberryPie Color Scheme for Vim
+# Color Scheme for Vim
 
-Blueberry Pie is combination of the following themes:
-
-- monokai -> https://github.com/tomasr/molokai
-
-- badwolf -> https://github.com/sjl/badwolf
-
-256-Color terminals are also supported, though there are some differences with the Gui version. 
-
-## Screenshots
-
-![Screenshot](http://i.imgur.com/PnSI0.png)
+TermColor is a color scheme based on your terminal colors
 
 ## Installation
 
