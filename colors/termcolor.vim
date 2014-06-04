@@ -20,53 +20,59 @@ set background=dark
 "
 
 " Tabs
-hi TabLineFill      ctermfg=0   ctermbg=none
-hi TabLine          ctermfg=7   ctermbg=none    cterm=none
-hi TabLineSel       ctermfg=3   ctermbg=none    cterm=bold
+hi TabLineFill      ctermfg=0       ctermbg=none
+hi TabLine          ctermfg=7       ctermbg=none    cterm=none
+hi TabLineSel       ctermfg=3       ctermbg=none    cterm=bold
 
 " Line Numbers
 "hi CursorLine       ctermfg=15   ctermbg=0       cterm=none
 "hi CursorColumn     ctermfg=8   ctermbg=0
 "hi ColorColumn      ctermfg=8   ctermbg=0
-hi LineNr           ctermfg=7   ctermbg=0
+hi LineNr           ctermfg=7       ctermbg=0
 
 " Marks
-hi SignColumn       ctermfg=9   ctermbg=0
+hi SignColumn       ctermfg=none    ctermbg=0
+
+" Highlight
+hi Visual           ctermfg=none    ctermbg=8
+hi Search           ctermfg=11      ctermbg=8       cterm=bold
+hi MatchParen       ctermfg=0       ctermbg=11      cterm=bold
+hi SpellBad         ctermfg=0       ctermbg=9       cterm=bold
+hi SpellCap         ctermfg=9       ctermbg=0       cterm=bold
 
 " Errors / Warnings
-hi Error            ctermfg=9   ctermbg=0       cterm=bold
-hi ErrorMsg         ctermfg=9   ctermbg=0       cterm=bold
-hi WarningMsg       ctermfg=11  ctermbg=0       cterm=bold
+hi Error            ctermfg=9       ctermbg=0       cterm=bold
+hi ErrorMsg         ctermfg=9       ctermbg=0       cterm=bold
+hi WarningMsg       ctermfg=11      ctermbg=0       cterm=bold
 
 " Comments / Special (@param, @return, etc.)
 hi Comment          ctermfg=7
-hi Special          ctermfg=6   ctermbg=0       cterm=none
-hi SpecialChar      ctermfg=6                   cterm=none
-hi SpecialComment   ctermfg=14                  cterm=none
-hi Todo             ctermfg=1   ctermbg=0       cterm=bold
+hi Special          ctermfg=6       ctermbg=0       cterm=none
+hi SpecialChar      ctermfg=6                       cterm=none
+hi SpecialComment   ctermfg=14                      cterm=none
+hi Todo             ctermfg=1       ctermbg=0       cterm=bold
 
 " Spaces, Tabs, etc..
 hi NonText          ctermfg=7
 hi SpecialKey       ctermfg=7
 
 " Satements (if, for, do, while, try, catch, new, etc..)
-hi Exception        ctermfg=2                   cterm=none
-hi Statement        ctermfg=2                   cterm=none
+hi Exception        ctermfg=2                       cterm=none
+hi Statement        ctermfg=2                       cterm=none
 
 " Definitions (public, class, static, etc..)
-hi StorageClass     ctermfg=12                  cterm=none
+hi StorageClass     ctermfg=12                      cterm=none
 
 " Values (int, bool, string, etc..)
 hi Boolean          ctermfg=13
 hi Character        ctermfg=13
-hi Constant         ctermfg=13                  cterm=bold
+hi Constant         ctermfg=13                      cterm=bold
 hi Number           ctermfg=13
 hi String           ctermfg=13
 
 " Type Definitions
 hi Function         ctermfg=3
-hi Type             ctermfg=3                   cterm=none
-
+hi Type             ctermfg=3                       cterm=none
 
 "hi Conditional     ctermfg=1               cterm=bold
 "hi Cursor          ctermfg=1  ctermbg=3  cterm=bold
@@ -87,7 +93,6 @@ hi Type             ctermfg=3                   cterm=none
 "hi Keyword         ctermfg=1                cterm=bold
 "hi Label           ctermfg=1               cterm=none
 "hi Macro           ctermfg=1
-"hi MatchParen      ctermfg=1   ctermbg=2  cterm=bold
 "hi ModeMsg         ctermfg=1
 "hi MoreMsg         ctermfg=1
 "hi Normal          ctermfg=1   ctermbg=0
@@ -100,7 +105,6 @@ hi Type             ctermfg=3                   cterm=none
 "hi PreProc         ctermfg=1
 "hi Question        ctermfg=1
 "hi Repeat          ctermfg=1
-"hi Search          ctermfg=1   ctermbg=3
 "hi SpecialKey      ctermfg=1
 "hi StatusLine      ctermfg=1    ctermbg=0
 "hi StatusLineNC    ctermfg=1    ctermbg=0
@@ -110,6 +114,5 @@ hi Type             ctermfg=3                   cterm=none
 "hi Typedef         ctermfg=1
 "hi Underlined      ctermfg=1               cterm=underline
 "hi VertSplit       ctermfg=1   ctermbg=0   cterm=bold
-"hi Visual          ctermfg=1   ctermbg=5
 "hi VisualNOS       ctermfg=1   ctermbg=5
 "hi WildMenu        ctermfg=1   ctermbg=0
